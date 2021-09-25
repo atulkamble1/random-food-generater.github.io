@@ -1,4 +1,3 @@
 # random-food-generater.github.io
-
-This gerate Random Food Using API.<br>
+Random Recipe Generator using the Meal Db API.<br>
 Live Demo : 
