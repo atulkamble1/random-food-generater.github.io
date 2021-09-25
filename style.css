@@ -1,0 +1,156 @@
+/* border box */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Container center alignment */
+
+.container-fluid{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5% 10%;
+    background-color: #CAF7E3;
+    padding: 20px;
+    border-radius: 20px;
+    line-height: 2.2rem; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+
+
+/* Submit button */
+
+.submit{
+    border-radius: 50rem;
+    border: none;
+    outline: none;
+    padding: 4px 15px;
+    background-color: #94EBCD;    
+}
+
+.submit:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+/* Information Section */
+
+
+
+/* image size */
+#img{
+    height: 25rem;   
+}
+
+#img{
+    cursor: pointer;
+}
+
+/* To display image and method in coloum  */
+.row{
+    margin: 5% 10%;
+    justify-content: center;
+    text-align: justify;
+    display: none;
+
+}
+
+/* Give padding betwwen image and method */
+.container{
+    padding: 2px 15px;
+}
+#Ingredients-heading{
+    font-size: 2rem;
+}
+#methodname{
+    text-align:initial;
+}
+
+
+/* YouTube Video section */
+.video{
+    padding: 0% 10%;   
+}
+
+h2{
+    font-size: 2rem;   
+}
+
+
+/* To align iframe center  */
+iframe{
+    margin: 0 auto;
+    display: block;
+    
+}
+
+
+/* Link Section */
+
+#weblink{
+    text-decoration: none;
+    margin: 2% 0 10% 10%;
+    color: #1A1A1B;
+    font-size: large;
+    margin-bottom: 50%;
+}
+
+#weblink:hover{
+    color: #1597BB;
+}
+.linksection{
+    margin: 10px 0;
+}
+
+#Thankyou{
+    background-color: #CAF7E3;
+    padding: 10px;
+    margin: 5% 10%;
+    border-radius: 20px;
+    display: none;
+}
+
+@media only screen and (max-width : 768px) {
+
+    .container-fluid{
+        margin: 3% 5%;
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+
+    #img{
+        height: 13rem;
+    }
+    #Ingredients-heading{
+        font-size: x-large;
+    }
+    #row{
+        margin: 1%;
+    }
+    #methodname{
+        font-size:x-large;
+    }
+    #method{
+        font-size: 14px;
+    }
+    #youtube{
+        height: 225px;
+        width: 425px;
+    }
+    #Thankyou{
+        font-size: x-large;
+    }
+
+}

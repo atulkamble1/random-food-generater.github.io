@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Food Item Recipe</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="app.js" defer></script>  
+    <!-- Defer for to execute script after document has been parsed -->
+
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <h1>Feeling hungry 😋 ?</h1>
+        <h3>Eat random meal by clicking below</h3>
+        <input type="button" id="demo" class="submit" value="Get Random Meal 🍔" onclick="myFunction()">
+    </div>
+
+    <div class="container row  meal" id="row">
+        <div class="container left">
+            <img src="#" id="img">
+            <p id="category"></p>
+            <p id="area"></p>
+            <p id="tags"></p><br>
+
+            <p id="Ingredients-heading"></p><br>
+            <p id="Ingredients"></p>
+        </div>
+
+        <div class="container right">
+            <h1 id="methodname"></h1><br>
+            <p id="method">
+            </p>
+        </div>
+
+    </div>
+    <div class="video" id="video">
+
+        <h2 id="Video Recipe-heading"></h2>
+        <iframe id="youtube" width="560" height="315" src="" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+                   
+
+    </div>
+
+    <div class="linksection"><a href="" id="weblink" target="parent" rel="noopener noreferrer" crossorigin="anonymous"></a></div>
+ 
+    <h1 id="Thankyou"></h1>
+</body>
+
+</html>
